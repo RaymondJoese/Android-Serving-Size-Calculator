@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.assignment_2.servingsizecalculator.ThirdActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/btn_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="52dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/pot"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="29dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:text="@string/weight_empty_g"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="141dp"
+        android:layout_height="32dp"
+        android:text="@string/weight_with_food_g"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="129dp"
+        android:layout_height="38dp"
+        android:text="@string/weight_of_food_g"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="122dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="29dp"
+        android:text="@string/tv_num_servings"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/tv_serving_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="17dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="122dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="246dp"
+        android:text="@string/serving_weight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/tv_pot_Weight"
+        android:layout_width="88dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="117dp"
+        android:layout_marginTop="65dp"
+        android:text="@string/potweight"
+        app:layout_constraintBottom_toTopOf="@+id/tv_serving_weight"
+        app:layout_constraintStart_toStartOf="@+id/et_weight_w_food"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_weight_w_food"
+        android:layout_width="211dp"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:maxLength="9"
+        android:hint="@string/weight_w_food_g"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/tv_food_weight"
+        app:layout_constraintStart_toStartOf="@+id/tv_food_weight"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pot_Weight" />
+
+    <TextView
+        android:id="@+id/tv_food_weight"
+        android:layout_width="167dp"
+        android:layout_height="30dp"
+        android:text="@string/et_initial_food_weight"
+        app:layout_constraintBottom_toTopOf="@+id/et_num_serving"
+        app:layout_constraintStart_toStartOf="@+id/et_num_serving"
+        app:layout_constraintTop_toBottomOf="@+id/et_weight_w_food" />
+
+    <TextView
+        android:id="@+id/tv_serving_weight"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="242dp"
+        android:layout_marginEnd="9dp"
+        android:text="@string/unknown_serving_weight"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pot_Weight"
+        android:layout_marginRight="9dp" />
+
+    <EditText
+        android:id="@+id/et_num_serving"
+        android:layout_width="209dp"
+        android:layout_height="0dp"
+        android:inputType="number"
+        android:maxLength="3"
+        android:hint="@string/et_num_servings"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/tv_serving_weight"
+        app:layout_constraintStart_toStartOf="@+id/tv_serving_weight"
+        app:layout_constraintTop_toBottomOf="@+id/tv_food_weight" />
+
+    <TextView
+        android:id="@+id/tv_pot_name"
+        android:layout_width="89dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="43dp"
+        android:text="@string/potname"
+        app:layout_constraintBottom_toTopOf="@+id/et_weight_w_food"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="8dp" />
+
+</android.support.constraint.ConstraintLayout>

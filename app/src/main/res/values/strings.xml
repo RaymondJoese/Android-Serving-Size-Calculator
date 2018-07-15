@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Serving Size Calculator</string>
+    <string name="add_pot">add pot</string>
+    <string name="select_a_pot_to_use">Select a pot to use:</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="pot_name">Pot Name</string>
+    <string name="pot_weight_g">Pot Weight (g)</string>
+    <string name="EditText_Pot_Weight">Pot Weight (g):</string>
+    <string name="EditText_Pot_Name">Pot Name:</string>
+    <string name="potname">PotName</string>
+    <string name="tv_num_servings"># Servings</string>
+    <string name="unknown_serving_weight">-</string>
+    <string name="potweight">PotWeight</string>
+    <string name="weight_w_food_g">Weight w/ food (g)</string>
+    <string name="serving_weight">Serving Weight</string>
+    <string name="et_num_servings"># Servings</string>
+    <string name="weight_of_food_g">Weight of food (g)</string>
+    <string name="weight_with_food_g">Weight with food (g)</string>
+    <string name="weight_empty_g">Weight Empty (g)</string>
+    <string name="pot">Pot</string>
+    <string name="btn_back">Back</string>
+    <string name="et_initial_food_weight">0</string>
+    <string name="submenu_delete">Delete</string>
+    <string name="submenu_edit">Edit</string>
+    <string name="features">Edit \nDelete \nInput Check \nSave Data</string>
+    <string name="feature_added">Features Added:</string>
+</resources>
