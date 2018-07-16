@@ -9,6 +9,6 @@ The calculator is used to compute the net weight of food. User can add/edit/dele
 #### Prerequisite
 Download Android Studio[https://developer.android.com/studio/].
 #### Clone Project
-Open Adnroid Studio, select clone from GitHub, and then copy and paste https://github.com/RaymondJoese/Android-Serving-Size-Calculator.git
+Open Adnroid Studio, select clone from GitHub, and then copy and paste "https://github.com/RaymondJoese/Android-Serving-Size-Calculator.git"
 #### Run
 Click run
